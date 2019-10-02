@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="Day2_Pracitce2.css">
+  <script>
+    flag = 0;
+
+    function Setpoint(obj) {
+      // alert(obj);
+      if (flag % 2 == 0) {
+        obj.innerText = 'O';
+      }
+      else if (flag % 2 == 1) {
+        obj.innerText = 'X';
+      }
+      flag++;
+    }
+  </script>
+</head>
+
+<body>
+  <h1>OOXX</h1>
+  <table id="table1">
+    <tr>
+      <td id="s1" onclick="Setpoint(document.getElementById('s1'))">_</td>
+      <td id="s2" onclick="Setpoint(document.getElementById('s2'))">_</td>
+      <td id="s3" onclick="Setpoint(document.getElementById('s3'))">_</td>
+    </tr>
+    <tr>
+      <td id="s4" onclick="Setpoint(document.getElementById('s4'))">_</td>
+      <td id="s5" onclick="Setpoint(document.getElementById('s5'))">_</td>
+      <td id="s6" onclick="Setpoint(document.getElementById('s6'))">_</td>
+    </tr>
+    <tr>
+      <td id="s7" onclick="Setpoint(document.getElementById('s7'))">_</td>
+      <td id="s8" onclick="Setpoint(document.getElementById('s8'))">_</td>
+      <td id="s9" onclick="Setpoint(document.getElementById('s9'))">_</td>
+    </tr>
+  </table>
+  </div>
+
+</body>
+
+</html>

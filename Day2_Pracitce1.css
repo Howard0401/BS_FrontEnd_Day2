@@ -1,0 +1,15 @@
+#table1 {
+  border: 2px  green double;
+  width: 200px;
+  text-align: center;
+}
+
+th {
+  
+}
+tr.odd {
+  background-color: lightcyan;
+}
+tr.even {
+  background-color: lightyellow;
+}
